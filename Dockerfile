@@ -4,7 +4,7 @@ RUN apk add --no-cache nginx
 
 COPY nginx.conf /etc/nginx/http.d/default.conf
 
-WORKDIR /var/www/html/vcn
+WORKDIR /var/www/html/
 COPY . .
 
 RUN mkdir -p /run/nginx /var/log/nginx
