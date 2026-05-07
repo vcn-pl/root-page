@@ -1,5 +1,5 @@
 <?php
-$title       = 'Branże – VCN porządkuje logistykę, produkcję, parkingi i więcej';
+$title       = 'Branże - VCN porządkuje logistykę, produkcję, parkingi i więcej';
 $description = 'VCN projektuje systemy dla logistyki, produkcji, parkingów, inwestycji budowlanych, centrów handlowych, myjni, HoReCa i ochrony. Wybierz swoją branżę.';
 
 require APP_ROOT . '/components/head.php';

@@ -15,7 +15,7 @@
     <link rel="preload" href="/fonts/Source-Sans-Pro/SourceSansPro-Regular.ttf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/font-face.css" as="style" onload="this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/fonts/font-face.css"></noscript>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/style-20260507.css">
     <link rel="preload" href="/img/logo-vnc-full.svg" as="image">
     <link rel="preload" href="/media/intro.mp4" as="video" type="video/mp4" media="(min-width: 769px)">
 
