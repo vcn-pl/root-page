@@ -1,3 +1,7 @@
+<?php
+        $title = "VCN - 404 Strona nie znaleziona";
+        require APP_ROOT . '/components/head.php';
+        require APP_ROOT . '/components/header.php';?>
 <main>
   <section>
     <div class="container">

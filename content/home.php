@@ -1,10 +1,16 @@
+<?php
+  $title = "VCN - Zintegrowane systemy dla biznesu";
+  $description = "Systemy VCN dla logistyki, produkcji i nieruchomości.";
+  
+  require APP_ROOT . '/components/head.php';
+  require APP_ROOT . '/components/header.php'; ?>
 <main>
   <section id="hero">
     <div class="container">
       <h1>Zintegrowane systemy, które porządkują biznes</h1>
       <p>
         Projektujemy i wdrażamy systemy, które porządkują logistykę,
-        produkcję i nieruchomości — bez chaosu i ręcznej obsługi.
+        produkcję i nieruchomości - bez chaosu i ręcznej obsługi.
       </p>
 
       <div class="cta-group">
