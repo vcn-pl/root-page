@@ -1,11 +1,15 @@
 <?php
   $title = "VCN - Zintegrowane systemy dla biznesu";
-  $description = "Systemy VCN dla logistyki, produkcji i nieruchomości.";
-  
+  $description = "VCN projektuje i wdraża zintegrowane systemy dla logistyki, produkcji i nieruchomości. Automatyzacja wjazdów, kontrola dostępu i monitoring — bez chaosu i ręcznej obsługi.";
+
   require APP_ROOT . '/components/head.php';
   require APP_ROOT . '/components/header.php'; ?>
 <main>
-  <section id="hero">
+  <section id="hero" aria-label="Sekcja główna">
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+      <source src="/media/intro.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
     <div class="container">
       <h1>Zintegrowane systemy, które porządkują biznes</h1>
       <p>

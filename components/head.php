@@ -17,22 +17,38 @@
     <noscript><link rel="stylesheet" href="/fonts/font-face.css"></noscript>
     <link rel="stylesheet" href="/styles/style.css">
     <link rel="preload" href="/img/logo-vnc-full.svg" as="image">
-
+    <link rel="preload" href="/media/intro.mp4" as="video" type="video/mp4" media="(min-width: 769px)">
 
     <title><?= htmlspecialchars($title ?? 'VCN') ?></title>
     <meta name="description" content="<?= htmlspecialchars($description ?? '') ?>">
 
-    <link rel="canonical" href="https://example.com/">
+    <link rel="canonical" href="https://vcn.pl<?= htmlspecialchars(strtok($_SERVER['REQUEST_URI'] ?? '/', '?')) ?>">
 
     <meta name="robots" content="index,follow">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
     <meta property="og:type" content="website">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="VCN">
+    <meta property="og:title" content="<?= htmlspecialchars($title ?? 'VCN') ?>">
+    <meta property="og:description" content="<?= htmlspecialchars($description ?? '') ?>">
+    <meta property="og:url" content="https://vcn.pl<?= htmlspecialchars(strtok($_SERVER['REQUEST_URI'] ?? '/', '?')) ?>">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?= htmlspecialchars($title ?? 'VCN') ?>">
+    <meta name="twitter:description" content="<?= htmlspecialchars($description ?? '') ?>">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "VCN",
+      "url": "https://vcn.pl",
+      "description": "Projektujemy i wdrażamy zintegrowane systemy dla logistyki, produkcji i nieruchomości.",
+      "areaServed": "PL",
+      "serviceType": ["Systemy kontroli dostępu", "Automatyzacja procesów", "Monitoring obiektów"]
+    }
+    </script>
 </head>
 <body>
