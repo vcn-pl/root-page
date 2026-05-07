@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla ochrony obiektów – wsparcie pracy ochrony, dokumentacja interwencji, automatyzacja wjazdów';
+$title       = 'Systemy VCN dla ochrony obiektów - wsparcie pracy ochrony, dokumentacja interwencji, automatyzacja wjazdów';
 $description = 'VCN wspiera firmy ochroniarskie i działy ochrony w obiektach. Automatyczne wjazdy, rejestracja zdarzeń i dokumentacja interwencji bez ręcznych raportów.';
 
 $branza_label       = 'Ochrona';
 $branza_label_gdzie = 'ochrona';
 $hero_headline      = 'Systemy VCN dla ochrony i nadzoru obiektów';
-$hero_subheadline   = 'Wspieramy firmy ochroniarskie i działy ochrony w obiektach, porządkując wjazdy, zdarzenia i dokumentację – tak, aby ochrona pracowała szybciej, spokojniej i z pełną kontrolą.';
+$hero_subheadline   = 'Wspieramy firmy ochroniarskie i działy ochrony w obiektach, porządkując wjazdy, zdarzenia i dokumentację - tak, aby ochrona pracowała szybciej, spokojniej i z pełną kontrolą.';
 
 $problems = [
     'Ręczna obsługa wjazdów i przepustek — presja i błędy na bramie',

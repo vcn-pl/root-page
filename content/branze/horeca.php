@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla branży HoReCa – kontrola dostępu, bezpieczeństwo gości, zarządzanie zdarzeniami';
+$title       = 'Systemy VCN dla branży HoReCa - kontrola dostępu, bezpieczeństwo gości, zarządzanie zdarzeniami';
 $description = 'VCN porządkuje dostęp, zdarzenia i zaplecze operacyjne w hotelach i obiektach HoReCa. Bezpieczeństwo gości i pełna kontrola dla obsługi bez dodatkowego stresu.';
 
 $branza_label       = 'HoReCa';
 $branza_label_gdzie = 'branża HoReCa';
 $hero_headline      = 'Systemy VCN dla branży HoReCa';
-$hero_subheadline   = 'W hotelach i obiektach HoReCa porządkujemy dostęp, zdarzenia i zaplecze operacyjne – tak, aby goście czuli się bezpiecznie, a obsługa miała pełną kontrolę bez dodatkowego stresu.';
+$hero_subheadline   = 'W hotelach i obiektach HoReCa porządkujemy dostęp, zdarzenia i zaplecze operacyjne - tak, aby goście czuli się bezpiecznie, a obsługa miała pełną kontrolę bez dodatkowego stresu.';
 
 $problems = [
     'Brak kontroli nad dostępem do stref gościnnych i zaplecza',

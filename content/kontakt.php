@@ -1,5 +1,5 @@
 <?php
-$title       = 'Kontakt – VCN | Umów rozmowę o swoim projekcie';
+$title       = 'Kontakt - VCN | Umów rozmowę o swoim projekcie';
 $description = 'Skontaktuj się z VCN. Opisz swój obiekt i problem, a my odpowiemy jak możemy pomóc. Konsultacja bez zobowiązań.';
 
 require APP_ROOT . '/components/head.php';

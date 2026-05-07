@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla myjni samochodowych – automatyczne wjazdy, weryfikacja reklamacji, nadzór operacyjny';
+$title       = 'Systemy VCN dla myjni samochodowych - automatyczne wjazdy, weryfikacja reklamacji, nadzór operacyjny';
 $description = 'VCN automatyzuje wjazd, nadzór i obsługę zdarzeń w myjniach. Eliminacja reklamacji bez dowodów, kontrola dostępu do usługi, łatwe skalowanie sieci myjni.';
 
 $branza_label       = 'Myjnie samochodowe';
 $branza_label_gdzie = 'myjnie';
 $hero_headline      = 'Systemy VCN dla myjni samochodowych';
-$hero_subheadline   = 'Automatyzujemy wjazd, nadzór i obsługę zdarzeń w myjniach samochodowych – tak, aby proces był szybki, bezpieczny i wolny od sporów z klientami.';
+$hero_subheadline   = 'Automatyzujemy wjazd, nadzór i obsługę zdarzeń w myjniach samochodowych - tak, aby proces był szybki, bezpieczny i wolny od sporów z klientami.';
 
 $problems = [
     'Kolejki i chaos na wjeździe — brak automatycznej kolejkowania',

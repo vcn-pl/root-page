@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla inwestycji budowlanych – kontrola placu budowy, ewidencja pojazdów i BHP';
-$description = 'VCN porządkuje dostęp, ruch i zdarzenia na placach budowy – od pierwszego etapu inwestycji po jej zakończenie. Bez ręcznych list, bez chaosu przy zmianie etapów.';
+$title       = 'Systemy VCN dla inwestycji budowlanych - kontrola placu budowy, ewidencja pojazdów i BHP';
+$description = 'VCN porządkuje dostęp, ruch i zdarzenia na placach budowy - od pierwszego etapu inwestycji po jej zakończenie. Bez ręcznych list, bez chaosu przy zmianie etapów.';
 
 $branza_label       = 'Inwestycje budowlane';
 $branza_label_gdzie = 'inwestycje budowlane';
 $hero_headline      = 'Systemy VCN dla inwestycji budowlanych';
-$hero_subheadline   = 'Porządkujemy dostęp, ruch i zdarzenia na placach budowy – od pierwszego etapu inwestycji po jej zakończenie.';
+$hero_subheadline   = 'Porządkujemy dostęp, ruch i zdarzenia na placach budowy - od pierwszego etapu inwestycji po jej zakończenie.';
 
 $problems = [
     'Brak kontroli nad tym, kto jest na budowie w danym momencie',

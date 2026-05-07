@@ -1,5 +1,5 @@
 <?php
-$title       = 'Systemy VCN dla logistyki – kontrola wjazdów, awizacja, dokumentacja zdarzeń';
+$title       = 'Systemy VCN dla logistyki - kontrola wjazdów, awizacja, dokumentacja zdarzeń';
 $description = 'VCN porządkuje logistykę od wjazdu pojazdu, przez plac i rampy, po dokumentację zdarzeń. Automatyzacja awizacji, identyfikacja pojazdów, obsługa kierowców.';
 
 $branza_label       = 'Logistyka';

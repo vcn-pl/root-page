@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla produkcji i przemysłu – kontrola dostępu, BHP, dokumentacja zdarzeń';
+$title       = 'Systemy VCN dla produkcji i przemysłu - kontrola dostępu, BHP, dokumentacja zdarzeń';
 $description = 'VCN porządkuje dostęp, bezpieczeństwo i kontrolę operacyjną w zakładach produkcyjnych. Ewidencja stref, kontrola trzeźwości, dokumentacja incydentów.';
 
 $branza_label       = 'Produkcja i przemysł';
 $branza_label_gdzie = 'produkcja';
 $hero_headline      = 'Systemy VCN dla produkcji i przemysłu';
-$hero_subheadline   = 'W zakładach produkcyjnych porządkujemy dostęp, bezpieczeństwo i kontrolę operacyjną – tak, aby produkcja działała stabilnie, bez przestojów i niejasnych zdarzeń.';
+$hero_subheadline   = 'W zakładach produkcyjnych porządkujemy dostęp, bezpieczeństwo i kontrolę operacyjną - tak, aby produkcja działała stabilnie, bez przestojów i niejasnych zdarzeń.';
 
 $problems = [
     'Niekontrolowany dostęp do stref produkcyjnych przez osoby nieuprawnione',

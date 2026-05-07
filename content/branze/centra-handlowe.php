@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla centrów handlowych – kontrola ruchu, parkingów i bezpieczeństwa obiektu';
+$title       = 'Systemy VCN dla centrów handlowych - kontrola ruchu, parkingów i bezpieczeństwa obiektu';
 $description = 'VCN porządkuje ruch, dostęp i obsługę zdarzeń w centrach handlowych. Automatyzacja parkingów, zarządzanie użytkownikami, weryfikacja incydentów.';
 
 $branza_label       = 'Centra handlowe';
 $branza_label_gdzie = 'centra handlowe';
 $hero_headline      = 'Systemy VCN dla centrów handlowych';
-$hero_subheadline   = 'Porządkujemy ruch, dostęp i obsługę zdarzeń w centrach handlowych – tak, aby obiekt działał płynnie, bezpiecznie i bez niepotrzebnych sytuacji kryzysowych.';
+$hero_subheadline   = 'Porządkujemy ruch, dostęp i obsługę zdarzeń w centrach handlowych - tak, aby obiekt działał płynnie, bezpiecznie i bez niepotrzebnych sytuacji kryzysowych.';
 
 $problems = [
     'Korki na parkingach w godzinach szczytu i brak sprawnej rotacji pojazdów',

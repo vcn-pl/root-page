@@ -1,11 +1,11 @@
 <?php
-$title       = 'Systemy VCN dla parkingów i nieruchomości – automatyczne wjazdy, kontrola dostępu, weryfikacja zdarzeń';
+$title       = 'Systemy VCN dla parkingów i nieruchomości - automatyczne wjazdy, kontrola dostępu, weryfikacja zdarzeń';
 $description = 'VCN automatyzuje wjazdy, dostęp i kontrolę zdarzeń na parkingach oraz w obiektach nieruchomościowych. Bez chaosu, bez ręcznej obsługi, z pełną kontrolą.';
 
 $branza_label       = 'Parkingi i nieruchomości';
 $branza_label_gdzie = 'parkingi i nieruchomości';
 $hero_headline      = 'Systemy VCN dla parkingów i nieruchomości';
-$hero_subheadline   = 'Automatyzujemy wjazdy, dostęp i kontrolę zdarzeń na parkingach oraz w obiektach nieruchomościowych – bez chaosu, bez ręcznej obsługi, z pełną kontrolą.';
+$hero_subheadline   = 'Automatyzujemy wjazdy, dostęp i kontrolę zdarzeń na parkingach oraz w obiektach nieruchomościowych - bez chaosu, bez ręcznej obsługi, z pełną kontrolą.';
 
 $problems = [
     'Ręczna obsługa wjazdów i portierni — stałe koszty i błędy ludzkie',
