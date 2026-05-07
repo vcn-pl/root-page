@@ -113,12 +113,47 @@
     </div>
   </section>
 
+  <section id="systems">
+    <div class="container">
+      <h2>Systemy, które integrujemy</h2>
+      <p>Kompetencje budowane latami — od identyfikacji pojazdów, przez kontrolę dostępu, po zarządzanie zgłoszeniami i analitykę wideo.</p>
+      <ul class="systems-overview">
+        <li>System rozpoznawania tablic rejestracyjnych (LPR)</li>
+        <li>Systemy awizacyjne i przepustkowe</li>
+        <li>Kontrola dostępu i ewidencja czasu pracy</li>
+        <li>Analityka wideo i wideoweryfikacja zdarzeń</li>
+        <li>Systemy ERP i narzędzia serwisowe</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="trust">
+    <div class="container">
+      <h2>Realne projekty, sprawdzone kompetencje</h2>
+      <div class="trust-stats">
+        <div class="trust-stat">
+          <span class="trust-stat__number">20+</span>
+          <span class="trust-stat__label">lat w branży</span>
+        </div>
+        <div class="trust-stat">
+          <span class="trust-stat__number">Logistyka</span>
+          <span class="trust-stat__label">Produkcja · Parkingi · Budownictwo</span>
+        </div>
+        <div class="trust-stat">
+          <span class="trust-stat__number">Audyt → SLA</span>
+          <span class="trust-stat__label">Pełen cykl wdrożenia</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="cta-final">
     <div class="container">
       <h2>Chcesz uporządkować procesy w swoim obiekcie?</h2>
-      <a href="<?= BASE_URL ?>/kontakt/">
-        Umów rozmowę
-      </a>
+      <div class="cta-group">
+        <a href="<?= BASE_URL ?>/kontakt/" class="cta-primary">Umów rozmowę</a>
+        <a href="<?= BASE_URL ?>/branze/" class="cta-secondary">Zobacz rozwiązania</a>
+      </div>
     </div>
   </section>
 </main>

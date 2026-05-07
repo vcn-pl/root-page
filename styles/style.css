@@ -309,6 +309,452 @@ footer nav a {
   margin-right: var(--space-sm);
 }
 
+/* ── Systems overview (homepage) ─────────────────────────────── */
+
+.systems-overview {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-sm);
+}
+
+.systems-overview li {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-gray-100);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* ── Trust / stats (homepage) ────────────────────────────────── */
+
+#trust {
+  background: var(--color-gray-100);
+}
+
+.trust-stats {
+  display: flex;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.trust-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.trust-stat__number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  line-height: 1;
+}
+
+.trust-stat__label {
+  font-size: 0.9rem;
+  color: var(--color-gray-600);
+}
+
+/* ── Breadcrumb ───────────────────────────────────────────────── */
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--color-gray-600);
+  margin-bottom: var(--space-md);
+  flex-wrap: wrap;
+}
+
+.breadcrumb a {
+  color: var(--color-gray-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-primary);
+}
+
+/* ── Branża hero ─────────────────────────────────────────────── */
+
+.branza-hero {
+  background: var(--color-dark);
+  color: #fff;
+  padding: var(--space-xl) 0;
+}
+
+.branza-hero .breadcrumb,
+.branza-hero .breadcrumb a {
+  color: rgba(255,255,255,0.6);
+}
+
+.branza-hero .breadcrumb a:hover {
+  color: #fff;
+}
+
+.branza-hero__sub {
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.branza-hero h1 {
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  margin: 0 0 var(--space-sm);
+  color: #fff;
+}
+
+.branza-hero p {
+  max-width: 700px;
+  color: rgba(255,255,255,0.8);
+  font-size: 1.05rem;
+  margin: 0 0 var(--space-md);
+}
+
+/* ── Problem list ────────────────────────────────────────────── */
+
+.branza-problems {
+  background: var(--color-gray-100);
+}
+
+.problem-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-sm);
+}
+
+.problem-list li {
+  padding: var(--space-sm) var(--space-md);
+  background: #fff;
+  border-left: 3px solid #d2222a;
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+  position: relative;
+}
+
+.problem-list li::before {
+  content: '✗';
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+/* ── Process steps ───────────────────────────────────────────── */
+
+.section-intro {
+  color: var(--color-gray-600);
+  margin-bottom: var(--space-lg);
+  font-size: 1rem;
+}
+
+.process-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  counter-reset: none;
+}
+
+.process-step {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+  padding: var(--space-md);
+  background: var(--color-gray-100);
+  border-radius: 6px;
+}
+
+.process-step__number {
+  flex-shrink: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.process-step__body {
+  flex: 1;
+}
+
+.process-step__body h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.process-step__body ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--color-gray-600);
+  font-size: 0.92rem;
+}
+
+.process-step__body ul li {
+  margin-bottom: 0.2rem;
+}
+
+/* ── Systems list (branże) ───────────────────────────────────── */
+
+.branza-systems {
+  background: var(--color-gray-100);
+}
+
+.systems-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--space-sm);
+}
+
+.systems-list li {
+  padding: var(--space-sm) var(--space-md);
+  background: #fff;
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 4px 4px 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+/* ── Effects list ────────────────────────────────────────────── */
+
+.effects-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-sm);
+}
+
+.effects-list li {
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-gray-100);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.effects-list li::before {
+  content: '✓ ';
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* ── Scenario ────────────────────────────────────────────────── */
+
+.branza-scenario {
+  background: var(--color-dark);
+  color: #fff;
+}
+
+.branza-scenario h2 {
+  color: #fff;
+}
+
+.branza-scenario p {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.05rem;
+  max-width: 760px;
+  font-style: italic;
+}
+
+/* ── Branże hub grid ─────────────────────────────────────────── */
+
+.branze-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-md);
+}
+
+.branza-card {
+  display: block;
+  padding: var(--space-md);
+  border: 1px solid var(--color-gray-300);
+  border-radius: 8px;
+  background: #fff;
+  text-decoration: none;
+  color: var(--color-dark);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.branza-card:hover {
+  border-color: var(--color-primary);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.branza-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: var(--color-primary);
+}
+
+.branza-card p {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--color-gray-600);
+}
+
+/* ── CTA final (branża) ──────────────────────────────────────── */
+
+.branza-cta {
+  background: var(--color-dark);
+  color: #fff;
+  text-align: center;
+}
+
+.branza-cta h2 {
+  color: #fff;
+  margin-bottom: var(--space-md);
+}
+
+/* ── Kontakt layout ──────────────────────────────────────────── */
+
+.kontakt-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  align-items: flex-start;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: var(--space-sm);
+}
+
+.form-field label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-dark);
+}
+
+.form-field input,
+.form-field textarea {
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--color-dark);
+  transition: border-color 0.2s;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.optional {
+  font-weight: 400;
+  color: var(--color-gray-600);
+}
+
+.btn-submit {
+  padding: 0.8rem 1.8rem;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-submit:hover {
+  opacity: 0.9;
+}
+
+.form-note {
+  margin-top: var(--space-sm);
+  font-size: 0.85rem;
+  color: var(--color-gray-600);
+}
+
+.contact-details {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-md) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.contact-details li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.contact-details a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-note {
+  background: var(--color-gray-100);
+  padding: var(--space-md);
+  border-radius: 6px;
+}
+
+.contact-note h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.contact-note ol {
+  margin: 0;
+  padding-left: 1.3rem;
+  color: var(--color-gray-600);
+  font-size: 0.92rem;
+}
+
+.contact-note ol li {
+  margin-bottom: 0.4rem;
+}
+
+/* ── Homepage #cta-final extra styles ────────────────────────── */
+
+#cta-final .cta-group {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+}
+
+#cta-final .cta-secondary {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border: 1px solid rgba(255,255,255,0.6);
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
 @media (max-width: 768px) {
   .nav-toggle {
     display: flex;
@@ -355,5 +801,33 @@ footer nav a {
   #hero .cta-group {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .trust-stats {
+    gap: var(--space-lg);
+  }
+
+  .kontakt-layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .branza-hero .cta-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .process-step {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .branze-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #cta-final .cta-group {
+    flex-direction: column;
+    align-items: center;
   }
 }
